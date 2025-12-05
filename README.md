@@ -1,4 +1,4 @@
-#Twitter Sentiment Analysis — NLP Coursework
+# Twitter Sentiment Analysis — NLP Coursework
 
 **Final Grade: 88%** 
 
