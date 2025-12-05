@@ -1,6 +1,6 @@
-# 🗣️ Twitter Sentiment Analysis — NLP Coursework
+#Twitter Sentiment Analysis — NLP Coursework
 
-**Final Grade: 88%** ✨
+**Final Grade: 88%** 
 
 This repository contains my completed coursework for the  Natural Language Processing module at QMUL.
 
@@ -137,4 +137,3 @@ Systematically improved both preprocessing and model architecture, achieving **+
 
 **Ahmed Idris**
 
-*NLP Coursework — 2024*
