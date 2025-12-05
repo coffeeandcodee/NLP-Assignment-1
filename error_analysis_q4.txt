@@ -1,0 +1,2490 @@
+================================================================================
+QUESTION 3 (Using model built for Q4): ERROR ANALYSIS
+================================================================================
+
+FALSE POSITIVES (Predicted Positive, Actually Negative): 166
+================================================================================
+These are NEGATIVE tweets that the classifier wrongly thought were POSITIVE.
+Look for patterns: sarcasm? positive words in negative context?
+================================================================================
+
+FALSE POSITIVE #1
+--------------------------------------------------------------------------------
+Tweet: Matt Flynn May Never Play Quarterback for the Seattle Seahawks - Bleacher Report: Bleacher Report... http://t.co/8HuFaY8L #seahawks #nfl
+Preprocessed tokens: matt flynn may never play quarterback for the seattle seahawks bleacher report bleacher report http //t.co/8hufay8l seahawks nfl
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #2
+--------------------------------------------------------------------------------
+Tweet: @nytimes And in good news tonight, Fidel Castro assumed room temperature. Now we just need his brother and Maduro to follow. Quickly.
+Preprocessed tokens: nytimes and in good news tonight fidel castro assumed room temperature now we just need his brother and maduro to follow quickly
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #3
+--------------------------------------------------------------------------------
+Tweet: Italian police stopped California rapper Snoop Dogg on Friday as he prepared to board a private plane bound for... http://t.co/DH38uKpUZI
+Preprocessed tokens: italian police stopped california rapper snoop dogg on friday a he prepared to board a private plane bound for http //t.co/dh38ukpuzi
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #4
+--------------------------------------------------------------------------------
+Tweet: Well with Zayn joining ISIS it is hard to maintain their family friendly image. https://t.co/ObzEtFCpPg
+Preprocessed tokens: well with zayn joining isi it is hard to maintain their family friendly image http //t.co/obzetfcppg
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #5
+--------------------------------------------------------------------------------
+Tweet: @LumiaUS The 1520 is the first Nokia I have ever had break on me. 1st. the phone stops reading the micro sim card http://t.co/bPtuUmwJmd
+Preprocessed tokens: lumiaus the 1520 is the first nokia i have ever had break on me 1st the phone stop reading the micro sim card http //t.co/bptuumwjmd
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #6
+--------------------------------------------------------------------------------
+Tweet: Nike didn't have what I needed so now I need to order it online AND I NEED IT TOMORROW IHML
+Preprocessed tokens: nike did n't have what i needed so now i need to order it online and i need it tomorrow ihml
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #7
+--------------------------------------------------------------------------------
+Tweet: It is scary that Kris Bryant is the 4th best hitter on the cubs..
+Preprocessed tokens: it is scary that kris bryant is the 4th best hitter on the cub
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #8
+--------------------------------------------------------------------------------
+Tweet: Give me 5 mins with Candy the dancer from Deja Vu I'm nutting on my 4th pump she that bad lol
+Preprocessed tokens: give me 5 min with candy the dancer from deja vu i 'm nutting on my 4th pump she that bad lol
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #9
+--------------------------------------------------------------------------------
+Tweet: #ThankYouObama for creating the strongest @republicanparty in almost a century and electing @realDonaldTrump.
+Preprocessed tokens: thankyouobama for creating the strongest republicanparty in almost a century and electing realdonaldtrump
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #10
+--------------------------------------------------------------------------------
+Tweet: It would be a strategic mistake of the 1st order 4 Tsipras (let alone a genuine anti-austerity politician) to seek and maintain a leading ..
+Preprocessed tokens: it would be a strategic mistake of the 1st order 4 tsipras let alone a genuine anti-austerity politician to seek and maintain a leading
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #11
+--------------------------------------------------------------------------------
+Tweet: I'm taking my death tomorrow, Kpop fans make me mad
+Preprocessed tokens: i 'm taking my death tomorrow kpop fan make me mad
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #12
+--------------------------------------------------------------------------------
+Tweet: We should start Ox on Saturday imo, he will terrorise Evra just like he did last season.
+Preprocessed tokens: we should start ox on saturday imo he will terrorise evra just like he did last season
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #13
+--------------------------------------------------------------------------------
+Tweet: The thought of the queue at Digi tomorrow is making me upset
+Preprocessed tokens: the thought of the queue at digi tomorrow is making me upset
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #14
+--------------------------------------------------------------------------------
+Tweet: @BleuFootedNewby Ah woops that's my bad they play the Knicks tomorrow
+Preprocessed tokens: bleufootednewby ah woops that 's my bad they play the knicks tomorrow
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #15
+--------------------------------------------------------------------------------
+Tweet: @eatyourkimchi Was there a specific reason you guys stopped doing Kpop Music Monday?  Feel out of touch with KPOP since you stopped. :(
+Preprocessed tokens: eatyourkimchi wa there a specific reason you guy stopped doing kpop music monday feel out of touch with kpop since you stopped
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #16
+--------------------------------------------------------------------------------
+Tweet: Snoop Dogg cancelled his performance at the fair tomorrow... Turns out he had a prior commitment for Mitch-a-Palooza.
+Preprocessed tokens: snoop dogg cancelled his performance at the fair tomorrow turn out he had a prior commitment for mitch-a-palooza
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #17
+--------------------------------------------------------------------------------
+Tweet: @xiangiao it's weird 'cause I usually like music in his vein, but it's every so shy of being memorable like a Bob Dylan/Lou Reed thing(?)
+Preprocessed tokens: xiangiao it 's weird 'cause i usually like music in his vein but it 's every so shy of being memorable like a bob dylan/lou reed thing
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #18
+--------------------------------------------------------------------------------
+Tweet: Mexico's totally destroyed the Miss USA pageant tomorrow night because I am to be speaking here for free!
+Preprocessed tokens: mexico 's totally destroyed the miss usa pageant tomorrow night because i am to be speaking here for free
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #19
+--------------------------------------------------------------------------------
+Tweet: Slept for about 11 hours. I seem to be in quite an odd mood. Ah well, @SoundersFC in play offs tonight (2am) and Jack White on Sunday!!!
+Preprocessed tokens: slept for about 11 hour i seem to be in quite an odd mood ah well soundersfc in play offs tonight 2am and jack white on sunday
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #20
+--------------------------------------------------------------------------------
+Tweet: Got money on the line and I love USC but I'm going for Org sat cz pac12 need someone to be in the BCS game and USC got no chance
+Preprocessed tokens: got money on the line and i love usc but i 'm going for org sat cz pac12 need someone to be in the bcs game and usc got no chance
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #21
+--------------------------------------------------------------------------------
+Tweet: @UPIWhitch, btw, matches the 60% Insurance Mafia skims off the top of our health care $$https://t.co/EAxzhW514w#WhoProfits #ThankYouObama
+Preprocessed tokens: upiwhitch btw match the 60 insurance mafia skim off the top of our health care http //t.co/eaxzhw514w whoprofits thankyouobama
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #22
+--------------------------------------------------------------------------------
+Tweet: Things that you never do on time:  Apply for FAFSA, your 2500 word paper due on monday, restocking on ice cream.
+Preprocessed tokens: thing that you never do on time apply for fafsa your 2500 word paper due on monday restocking on ice cream
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #23
+--------------------------------------------------------------------------------
+Tweet: @aronftaylor Farron disgusts me I voted Brexit for a much brighter future for our young people I voted #Brexit @timfarron respect democracy
+Preprocessed tokens: aronftaylor farron disgust me i voted brexit for a much brighter future for our young people i voted brexit timfarron respect democracy
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #24
+--------------------------------------------------------------------------------
+Tweet: HURRY!  then work on dismantling the electoral college. it's a dinosaur that needs extinction. 2.7 million (so far)… https://t.co/Wu3eUYBEtp
+Preprocessed tokens: hurry then work on dismantling the electoral college it 's a dinosaur that need extinction 2.7 million so far http //t.co/wu3euybetp
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #25
+--------------------------------------------------------------------------------
+Tweet: Okay if you go to Elon University and do not go to the Rip_Chords concert Saturday...you're sinning.
+Preprocessed tokens: okay if you go to elon university and do not go to the rip_chords concert saturday you 're sinning
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #26
+--------------------------------------------------------------------------------
+Tweet: But tonight when I went to see Madonna at the Scottrade when I walked in I started crying because I thought about last Saturday.
+Preprocessed tokens: but tonight when i went to see madonna at the scottrade when i walked in i started cry because i thought about last saturday
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #27
+--------------------------------------------------------------------------------
+Tweet: Yeah, I know it's Sunday delivery &amp; whatnot - and who else does that?! - but my Amazon Prime package is 3 and a half hours late... So far...
+Preprocessed tokens: yeah i know it 's sunday delivery amp whatnot and who else doe that but my amazon prime package is 3 and a half hour late so far
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #28
+--------------------------------------------------------------------------------
+Tweet: I'm starting to think Kane may just be a one season wonder.
+Preprocessed tokens: i 'm starting to think kane may just be a one season wonder
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #29
+--------------------------------------------------------------------------------
+Tweet: A real and sustained #WarOnWomen from the regime Obama is giving $$ and nuke capabilities to. May God forgive us all https://t.co/hfP84knjYo
+Preprocessed tokens: a real and sustained waronwomen from the regime obama is giving and nuke capability to may god forgive u all http //t.co/hfp84knjyo
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #30
+--------------------------------------------------------------------------------
+Tweet: El Classico on a Sunday Night isn't perfect for the Monday Morning !!
+Preprocessed tokens: el classico on a sunday night is n't perfect for the monday morning
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #31
+--------------------------------------------------------------------------------
+Tweet: 6 Apr 2015 - David Cameron tells 'fruitcakes loonies' - it's time to come home &gt;https://t.co/PDizoSaeRd  war is won http://t.co/PvLu06k2c2
+Preprocessed tokens: 6 apr 2015 david cameron tell 'fruitcakes loony it 's time to come home gt http //t.co/pdizosaerd war is won http //t.co/pvlu06k2c2
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #32
+--------------------------------------------------------------------------------
+Tweet: BAY HEAD, N.J./BOSTON, Nov 2 (Reuters) - The people of the Jersey Shore may feel alone in the world right now, t... http://t.co/3PbCfRbh
+Preprocessed tokens: bay head n.j./boston nov 2 reuters the people of the jersey shore may feel alone in the world right now t http //t.co/3pbcfrbh
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #33
+--------------------------------------------------------------------------------
+Tweet: @alexkidwell I give zero shits about Star Wars, and I'm only mildly excited by Bond films. Will I be seeing you on RHAP tomorrow?!
+Preprocessed tokens: alexkidwell i give zero shit about star war and i 'm only mildly excited by bond film will i be seeing you on rhap tomorrow
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #34
+--------------------------------------------------------------------------------
+Tweet: Trina will be in N.O. Friday....I stop supporting her the day I found out she was in thibodaux at the showcase lol
+Preprocessed tokens: trina will be in n.o friday i stop supporting her the day i found out she wa in thibodaux at the showcase lol
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #35
+--------------------------------------------------------------------------------
+Tweet: I'm emotional calibraska is tomorrow and I can't get it ughhhh h8 life
+Preprocessed tokens: i 'm emotional calibraska is tomorrow and i ca n't get it ughhhh h8 life
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #36
+--------------------------------------------------------------------------------
+Tweet: @CoL_70 Yep, Mavs started 0-4 before racking up 67 wins in 06-07. Of course they also flamed out in the 1st round against Golden State.
+Preprocessed tokens: col_70 yep mavs started 0-4 before racking up 67 win in 06-07. of course they also flamed out in the 1st round against golden state
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #37
+--------------------------------------------------------------------------------
+Tweet: I hated Tata Martino in Barca and I can't stand him coaching Argentina! Even though it's a friendly no reason to play 5 defenders in 1st 45
+Preprocessed tokens: i hated tata martino in barca and i ca n't stand him coaching argentina even though it 's a friendly no reason to play 5 defender in 1st 45
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #38
+--------------------------------------------------------------------------------
+Tweet: 49ersParadise HOP: Pick your poison: Eliminating Vernon Davis comes with a price [BEE-BLOG]: Mon, 29 Oct 2012 8:... http://t.co/n0DncWVk
+Preprocessed tokens: 49ersparadise hop pick your poison eliminating vernon davis come with a price bee-blog mon 29 oct 2012 8 http //t.co/n0dncwvk
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #39
+--------------------------------------------------------------------------------
+Tweet: Judging by the traffic and complaining, I think I might be best setting for Foo Fighters' Milton Keynes gig tomorrow right now
+Preprocessed tokens: judging by the traffic and complaining i think i might be best setting for foo fighter milton keynes gig tomorrow right now
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #40
+--------------------------------------------------------------------------------
+Tweet: Don't forget to buy crap! https://t.co/5Q0z1OhcQn Also who's got my #Hatchimals hookup
+Preprocessed tokens: do n't forget to buy crap http //t.co/5q0z1ohcqn also who 's got my hatchimals hookup
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #41
+--------------------------------------------------------------------------------
+Tweet: It never not being fun to see Brock Lesnar kill people &amp; loving Heyman's promo with one problem http://t.co/Kxr2yb69ze #RAW
+Preprocessed tokens: it never not being fun to see brock lesnar kill people amp loving heyman 's promo with one problem http //t.co/kxr2yb69ze raw
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #42
+--------------------------------------------------------------------------------
+Tweet: Gisele Bundchen Scared In Her Marriage To Tom Brady?: Everything may not be going well in the paradise for the... http://t.co/PxkyGxKsme
+Preprocessed tokens: gisele bundchen scared in her marriage to tom brady everything may not be going well in the paradise for the http //t.co/pxkygxksme
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #43
+--------------------------------------------------------------------------------
+Tweet: As things stand, the bottom 3 in Serie A are Bologna (18th), Empoli (19th); and Juventus (20th).
+Preprocessed tokens: a thing stand the bottom 3 in serie a are bologna 18th empoli 19th and juventus 20th
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #44
+--------------------------------------------------------------------------------
+Tweet: 'No Favorites' for Russia-Portugal Clash - Capello: MOSCOW, October 11 (RIA Novosti) - Russia's match with Portu... http://t.co/aQBz55zo
+Preprocessed tokens: 'no favorite for russia-portugal clash capello moscow october 11 ria novosti russia 's match with portu http //t.co/aqbz55zo
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #45
+--------------------------------------------------------------------------------
+Tweet: It's a shame it's not a historic march up the 18th on the final Sunday for Paul Dunne. Hopefully he be in as strong a position tomorrow. ...
+Preprocessed tokens: it 's a shame it 's not a historic march up the 18th on the final sunday for paul dunne hopefully he be in a strong a position tomorrow
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #46
+--------------------------------------------------------------------------------
+Tweet: #BlackLivesMatter banner at First Unitarian Church of Pittsburgh was vandalized this week https://t.co/zYymyQLjJD https://t.co/u2o5WMRaS0
+Preprocessed tokens: blacklivesmatter banner at first unitarian church of pittsburgh wa vandalized this week http //t.co/zyymyqljjd http //t.co/u2o5wmras0
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #47
+--------------------------------------------------------------------------------
+Tweet: 7:35 pm central time on Sunday night and Tom Brady and the @Patriots are still #cheaters
+Preprocessed tokens: 7:35 pm central time on sunday night and tom brady and the patriot are still cheater
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #48
+--------------------------------------------------------------------------------
+Tweet: Miyagi just got banned from yoga. He was caught him sniffing the sphincter of the girl in front of him. There may be police involvement!
+Preprocessed tokens: miyagi just got banned from yoga he wa caught him sniffing the sphincter of the girl in front of him there may be police involvement
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #49
+--------------------------------------------------------------------------------
+Tweet: @Waka_BacaFlame I'm already on my 3rd year at Colton it wouldn't make sense to graduate from gt after spending all this time here >.<
+Preprocessed tokens: waka_bacaflame i 'm already on my 3rd year at colton it would n't make sense to graduate from gt after spending all this time here
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #50
+--------------------------------------------------------------------------------
+Tweet: Heather is like the serpent in the garden trying 2 entice info from McBain! Michael Easton, dont ever go away that long! Watching Tues #GH.
+Preprocessed tokens: heather is like the serpent in the garden trying 2 entice info from mcbain michael easton dont ever go away that long watching tues gh
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #51
+--------------------------------------------------------------------------------
+Tweet: These #Iditarod updates are making me nervous!!! Sounds like Dallas Seavey has it but hope Aliy Zirkle can stay in 2nd!!!!
+Preprocessed tokens: these iditarod update are making me nervous sound like dallas seavey ha it but hope aliy zirkle can stay in 2nd
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #52
+--------------------------------------------------------------------------------
+Tweet: Carles Puyol could be out for up to 6 weeks after straining knee ligaments. Further tests on the Barca man tomorrow - http://t.co/RfNj8osA
+Preprocessed tokens: carles puyol could be out for up to 6 week after straining knee ligament further test on the barca man tomorrow http //t.co/rfnj8osa
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #53
+--------------------------------------------------------------------------------
+Tweet: So I'm listening to this Beatles' playlist to study for my Beatles midterm on Friday, and fucking SNSD is one of the related videos. #WTF
+Preprocessed tokens: so i 'm listening to this beatles playlist to study for my beatles midterm on friday and fucking snsd is one of the related video wtf
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #54
+--------------------------------------------------------------------------------
+Tweet: I apologize in advance if any of you spot me in Malahide's Pennies tomorrow. uuggghfghfgd
+Preprocessed tokens: i apologize in advance if any of you spot me in malahide 's penny tomorrow uuggghfghfgd
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #55
+--------------------------------------------------------------------------------
+Tweet: I got the practice CAHSEE tomorrow at school. dear practice CAHSEE, can you not. sincerely, me.
+Preprocessed tokens: i got the practice cahsee tomorrow at school dear practice cahsee can you not sincerely me
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #56
+--------------------------------------------------------------------------------
+Tweet: cant go to hot springs for the band marching contest because i didnt march at homecoming
+Preprocessed tokens: cant go to hot spring for the band marching contest because i didnt march at homecoming
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #57
+--------------------------------------------------------------------------------
+Tweet: @NotTheGolfer Could be similar to DRose as the 8 seed his 2nd year in. Don't know if the Cavs can make a jump like the Bulls to 1, but still
+Preprocessed tokens: notthegolfer could be similar to drose a the 8 seed his 2nd year in do n't know if the cavs can make a jump like the bull to 1 but still
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #58
+--------------------------------------------------------------------------------
+Tweet: Lmao ite he ain't goin be to happy he said he coming to allderdice tomorrow for you nigga @Finally_Rich
+Preprocessed tokens: lmao ite he ai n't goin be to happy he said he coming to allderdice tomorrow for you nigga finally_rich
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #59
+--------------------------------------------------------------------------------
+Tweet: @D3mous nope not all I can't afford all.. But I going picnic, Jouvert, the free jam Thursday and Sunday,
+Preprocessed tokens: d3mous nope not all i ca n't afford all but i going picnic jouvert the free jam thursday and sunday
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #60
+--------------------------------------------------------------------------------
+Tweet: Strong revenue growth at Tudou, but the company keeps on bleeding heavily - http://t.co/olAzHbcs
+Preprocessed tokens: strong revenue growth at tudou but the company keep on bleeding heavily http //t.co/olazhbcs
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #61
+--------------------------------------------------------------------------------
+Tweet: I miss old school Dashboard Confessional, taking back Sunday, senses fail, early November, and the used. #middleschooljams
+Preprocessed tokens: i miss old school dashboard confessional taking back sunday sens fail early november and the used middleschooljams
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #62
+--------------------------------------------------------------------------------
+Tweet: @justindsweeney BYU vs GT will re-air Saturday at 9am MT. We did not get VOD rights so it won't be archived on http://t.co/NnQCa8Am.
+Preprocessed tokens: justindsweeney byu v gt will re-air saturday at 9am mt we did not get vod right so it wo n't be archived on http //t.co/nnqca8am
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #63
+--------------------------------------------------------------------------------
+Tweet: Oomf is gonna get punched in the throat tomorrow -.-
+Preprocessed tokens: oomf is gon na get punched in the throat tomorrow
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #64
+--------------------------------------------------------------------------------
+Tweet: I'm absolutely skint til payday next Friday. This all stems from being paid the day I went to Leeds festival.
+Preprocessed tokens: i 'm absolutely skint til payday next friday this all stem from being paid the day i went to leeds festival
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #65
+--------------------------------------------------------------------------------
+Tweet: @DonzThaDon @BlueVino May not have. But I just know appeared to be better in early 80s before Reagan fired Air traffic controllers.
+Preprocessed tokens: donzthadon bluevino may not have but i just know appeared to be better in early 80 before reagan fired air traffic controller
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #66
+--------------------------------------------------------------------------------
+Tweet: Halloween wore me out next on the list Danksgiving on Nov 23 at Big Fish Pub in tempe hit up for slots and info only a couple left
+Preprocessed tokens: halloween wore me out next on the list danksgiving on nov 23 at big fish pub in tempe hit up for slot and info only a couple left
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #67
+--------------------------------------------------------------------------------
+Tweet: Sunday night wrap-up: Manning, Broncos roll Saints: His arm might not be full strength yet. And then he whacked ... http://t.co/fkWUIfYR
+Preprocessed tokens: sunday night wrap-up manning bronco roll saint his arm might not be full strength yet and then he whacked http //t.co/fkwuifyr
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #68
+--------------------------------------------------------------------------------
+Tweet: And whilst listening to Dashboard with a hangover, I may as well slit my wrists
+Preprocessed tokens: and whilst listening to dashboard with a hangover i may a well slit my wrist
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #69
+--------------------------------------------------------------------------------
+Tweet: @1DsHotTamale ~.~t u cant just tweet sum1 GUESS WHO IMMA SEE THURSDAY and NIT TWEET THEM BACK!! >.< lol
+Preprocessed tokens: 1dshottamale ~.~t u cant just tweet sum1 guess who imma see thursday and nit tweet them back lol
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #70
+--------------------------------------------------------------------------------
+Tweet: Tracy McGrady signed with a team in China today.  Clearly, that team does not have aspirations of reaching the 2nd round
+Preprocessed tokens: tracy mcgrady signed with a team in china today clearly that team doe not have aspiration of reaching the 2nd round
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #71
+--------------------------------------------------------------------------------
+Tweet: Eden Hazard's through ball to Juan Mata for the 3rd goal against Spurs - are you serious???!!! #onetouch #instinctive #class
+Preprocessed tokens: eden hazard 's through ball to juan mata for the 3rd goal against spur are you serious onetouch instinctive class
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #72
+--------------------------------------------------------------------------------
+Tweet: Anxious for the one next Wednesday I need to get to the bottom of this Bobbi Kristina and Nick thing
+Preprocessed tokens: anxious for the one next wednesday i need to get to the bottom of this bobbi kristina and nick thing
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #73
+--------------------------------------------------------------------------------
+Tweet: I am telling you come what may, Kareena Kapoor will not win a National Award for Heroine.
+Preprocessed tokens: i am telling you come what may kareena kapoor will not win a national award for heroine
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #74
+--------------------------------------------------------------------------------
+Tweet: @arifazmin even I didn't know it's 18th sept at KL Live to be exact :p
+Preprocessed tokens: arifazmin even i did n't know it 's 18th sept at kl live to be exact p
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #75
+--------------------------------------------------------------------------------
+Tweet: Jim Rogers: Bernanke Hasn't Done Anything Right as Fed Chief ...: From the blog Breakout: On September 12 of thi... http://t.co/6VLfCK6u
+Preprocessed tokens: jim rogers bernanke ha n't done anything right a fed chief from the blog breakout on september 12 of thi http //t.co/6vlfck6u
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #76
+--------------------------------------------------------------------------------
+Tweet: @Moilifestyle No ! I'm looking so bummy tomorrow ! I have to take the CAHSEE
+Preprocessed tokens: moilifestyle no i 'm looking so bummy tomorrow i have to take the cahsee
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #77
+--------------------------------------------------------------------------------
+Tweet: I may or may not have freightened a large number of L.A. residents, merely  by making EYE contact with them in the past 48 hours.
+Preprocessed tokens: i may or may not have freightened a large number of l.a. resident merely by making eye contact with them in the past 48 hour
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #78
+--------------------------------------------------------------------------------
+Tweet: [Tempo] Vanuatu quake | A strong 6.2-magnitude earthquake rattled the South Pacific island of Vanuatu Sunday, seismo... http://t.co/xoSnYLyj
+Preprocessed tokens: tempo vanuatu quake a strong 6.2-magnitude earthquake rattled the south pacific island of vanuatu sunday seismo http //t.co/xosnylyj
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #79
+--------------------------------------------------------------------------------
+Tweet: Dammn yung Tracy McGrady goin to play in China really wish injuries didnt slow him down was one the best in the @NBA my 2nd favorite player
+Preprocessed tokens: dammn yung tracy mcgrady goin to play in china really wish injury didnt slow him down wa one the best in the nba my 2nd favorite player
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #80
+--------------------------------------------------------------------------------
+Tweet: If Spurs sell VDV, plus Modric leaves, they may as well save us the wait n just join the Championship.
+Preprocessed tokens: if spur sell vdv plus modric leaf they may a well save u the wait n just join the championship
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #81
+--------------------------------------------------------------------------------
+Tweet: Intimate showcase with Chris Rene - November 7 in Auckland. Can't buy tickets to this. Click the link to enter... http://t.co/jfhKiRzM
+Preprocessed tokens: intimate showcase with chris rene november 7 in auckland ca n't buy ticket to this click the link to enter http //t.co/jfhkirzm
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #82
+--------------------------------------------------------------------------------
+Tweet: @cherylmunro sorry babe am off it till laidback Luke then after that black Friday haha xxx
+Preprocessed tokens: cherylmunro sorry babe am off it till laidback luke then after that black friday haha xxx
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #83
+--------------------------------------------------------------------------------
+Tweet: Sophos is the Lamest Virus Ever...: Starting September 19, Sophos successfully became the lamest... http://t.co/14HqjMMq |InfoSecIsland
+Preprocessed tokens: sophos is the lamest virus ever starting september 19 sophos successfully became the lamest http //t.co/14hqjmmq |infosecisland
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #84
+--------------------------------------------------------------------------------
+Tweet: A year ago tomorrow changed the ICONiac fan base forever :(
+Preprocessed tokens: a year ago tomorrow changed the iconiac fan base forever
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #85
+--------------------------------------------------------------------------------
+Tweet: DTN Cricket: Pattinson may be saved for A tour ahead of Ashes: James Pattinson may not make it to the ODI tour o... http://t.co/9nt69Ifk
+Preprocessed tokens: dtn cricket pattinson may be saved for a tour ahead of ash james pattinson may not make it to the odi tour o http //t.co/9nt69ifk
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #86
+--------------------------------------------------------------------------------
+Tweet: So it's the start of October. 30 days till Halloween. Trust some dickhead to dress up as Joseph Kony on the 31st.
+Preprocessed tokens: so it 's the start of october 30 day till halloween trust some dickhead to dress up a joseph kony on the 31st
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #87
+--------------------------------------------------------------------------------
+Tweet: Hard day looking forward to my tea now may have to call in to an irlam takeaway #memories
+Preprocessed tokens: hard day looking forward to my tea now may have to call in to an irlam takeaway memory
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #88
+--------------------------------------------------------------------------------
+Tweet: @Doug_Zamensky @SuzziFiazco @ianasbury #HARD #dayofthedead weekend just got a bit weirder. Chateau Marmont on Sunday? What?!
+Preprocessed tokens: doug_zamensky suzzifiazco ianasbury hard dayofthedead weekend just got a bit weirder chateau marmont on sunday what
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #89
+--------------------------------------------------------------------------------
+Tweet: Renewed fighting rocks Syria: An early morning explosion rocked the flashpoint city of Deir Ezzor on Saturday in... http://t.co/zf7AKZMr
+Preprocessed tokens: renewed fighting rock syria an early morning explosion rocked the flashpoint city of deir ezzor on saturday in http //t.co/zf7akzmr
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #90
+--------------------------------------------------------------------------------
+Tweet: Don't want to home tomorrow #omfg iHATEschool-.- Cuba is awesome...
+Preprocessed tokens: do n't want to home tomorrow omfg ihateschool-.- cuba is awesome
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #91
+--------------------------------------------------------------------------------
+Tweet: You never forget your first love, not surprisec in Oedipus's case he saw her every Mothering Sunday.
+Preprocessed tokens: you never forget your first love not surprisec in oedipus 's case he saw her every mothering sunday
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #92
+--------------------------------------------------------------------------------
+Tweet: Yep she's running a fever 101.7 uh oh I think she is missing school and her Girl Scouts meeting tomorrow!!
+Preprocessed tokens: yep she 's running a fever 101.7 uh oh i think she is missing school and her girl scout meeting tomorrow
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #93
+--------------------------------------------------------------------------------
+Tweet: My boy Dennis Kucinich at it again. Screw Ohio for redistricting the state and voting him out come November. http://t.co/HIdeMdIk
+Preprocessed tokens: my boy dennis kucinich at it again screw ohio for redistricting the state and voting him out come november http //t.co/hidemdik
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #94
+--------------------------------------------------------------------------------
+Tweet: @hamilton_elle swing by Hollywood Tans if its too hot for the Dubai sun.
+Preprocessed tokens: hamilton_elle swing by hollywood tan if it too hot for the dubai sun
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #95
+--------------------------------------------------------------------------------
+Tweet: @bensmith202 @RachelJWC michael ball is incredible 10th anniversary with him and colm is sick
+Preprocessed tokens: bensmith202 racheljwc michael ball is incredible 10th anniversary with him and colm is sick
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #96
+--------------------------------------------------------------------------------
+Tweet: CASHEE on Tuesday & Wednesday, math test on Thursday, an essay due Thursday too to top it all off rain all week! WTF!
+Preprocessed tokens: cashee on tuesday wednesday math test on thursday an essay due thursday too to top it all off rain all week wtf
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #97
+--------------------------------------------------------------------------------
+Tweet: I think we may have just found out the reason he plays Carrick at centre half when we have no one else #lackofexperienceshows
+Preprocessed tokens: i think we may have just found out the reason he play carrick at centre half when we have no one else lackofexperienceshows
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #98
+--------------------------------------------------------------------------------
+Tweet: Lack of LTE may cause Google Nexus 4 to flop: While Google is expecting the Nexus 4 to be a strong followup to the... http://t.co/5fUfQf3u
+Preprocessed tokens: lack of lte may cause google nexus 4 to flop while google is expecting the nexus 4 to be a strong followup to the http //t.co/5fufqf3u
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #99
+--------------------------------------------------------------------------------
+Tweet: You are out of luck if you want to go to the BNP Paribas Open on Saturday as tickets are not available. Same for Sunday day session #bnppo12
+Preprocessed tokens: you are out of luck if you want to go to the bnp paribas open on saturday a ticket are not available same for sunday day session bnppo12
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #100
+--------------------------------------------------------------------------------
+Tweet: @shelboxoxo I'm going to Cuba buuuttt I doubt I will be doing what y'all will #13.1 Sunday
+Preprocessed tokens: shelboxoxo i 'm going to cuba buuuttt i doubt i will be doing what y'all will 13.1 sunday
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #101
+--------------------------------------------------------------------------------
+Tweet: @BarackObama, Clinton, Panetta, Petraeus we will not #StandDown on Nov 6 or Nov 7 or Nov 8th. Do the right thing now. #WeWillNotLetThisGo
+Preprocessed tokens: barackobama clinton panetta petraeus we will not standdown on nov 6 or nov 7 or nov 8th do the right thing now wewillnotletthisgo
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #102
+--------------------------------------------------------------------------------
+Tweet: Well yall are gonna forget about this tomorrow anyway just like KONY
+Preprocessed tokens: well yall are gon na forget about this tomorrow anyway just like kony
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #103
+--------------------------------------------------------------------------------
+Tweet: Brilliant Burns stops Mitchell in 4th: Kevin Mitchell's bid to win the WBO lightweight title ended in failure on... http://t.co/GZxRbVmM
+Preprocessed tokens: brilliant burn stop mitchell in 4th kevin mitchell 's bid to win the wbo lightweight title ended in failure on http //t.co/gzxrbvmm
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #104
+--------------------------------------------------------------------------------
+Tweet: @CarlJWood I teach my class to count in pennies at first. I may be part of the problem.
+Preprocessed tokens: carljwood i teach my class to count in penny at first i may be part of the problem
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #105
+--------------------------------------------------------------------------------
+Tweet: Top 5 Pgs Rondo, Rose , Deron, Paul, ???....don't kno the 5th
+Preprocessed tokens: top 5 pgs rondo rose deron paul do n't kno the 5th
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #106
+--------------------------------------------------------------------------------
+Tweet: Slow Economic Gains in 3rd Quarter: ABJ - October 26 - Some reason for optimism surfaced during the third-quarte... http://t.co/WZBl07SG
+Preprocessed tokens: slow economic gain in 3rd quarter abj october 26 some reason for optimism surfaced during the third-quarte http //t.co/wzbl07sg
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #107
+--------------------------------------------------------------------------------
+Tweet: How did Dylan Quirk not make the Vic 19's. He kept to James Pattinson, Darren Pattinson and Peter Siddle in a 1st grade Grand Final at 15.
+Preprocessed tokens: how did dylan quirk not make the vic 19 's he kept to james pattinson darren pattinson and peter siddle in a 1st grade grand final at 15
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #108
+--------------------------------------------------------------------------------
+Tweet: ASU Pajamas or Northglenn Pajamas tomorrow? Trust me, its harder than you think.
+Preprocessed tokens: asu pajama or northglenn pajama tomorrow trust me it harder than you think
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #109
+--------------------------------------------------------------------------------
+Tweet: Juniors playing powderpuff, if you aren't at practice tomorrow you will NOT play, it starts at 5:30pm, hope to see you there!
+Preprocessed tokens: junior playing powderpuff if you are n't at practice tomorrow you will not play it start at 5:30pm hope to see you there
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #110
+--------------------------------------------------------------------------------
+Tweet: #Bills Mario Williams not sure if he'll practice today (wrist) expects to be more effective Sunday. @wgrz
+Preprocessed tokens: bill mario williams not sure if he 'll practice today wrist expects to be more effective sunday wgrz
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #111
+--------------------------------------------------------------------------------
+Tweet: Win #3 for Bowyer. And for the 3rd time can't drive it to Victory Lane #NASCAR
+Preprocessed tokens: win 3 for bowyer and for the 3rd time ca n't drive it to victory lane nascar
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #112
+--------------------------------------------------------------------------------
+Tweet: #HeadiesAll of you famzing live at the #Headies and dnt knw where Eko Hotel n suite dey..May ur twitter connection be bad.#GodPunishU
+Preprocessed tokens: headiesall of you famzing live at the headies and dnt knw where eko hotel n suite dey may ur twitter connection be bad. godpunishu
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #113
+--------------------------------------------------------------------------------
+Tweet: Coming up in your Weekend Argus tomorrow: Kalk Bay waves cause some damage in the area.
+Preprocessed tokens: coming up in your weekend argus tomorrow kalk bay wave cause some damage in the area
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #114
+--------------------------------------------------------------------------------
+Tweet: It's endorsement season. You'll want to read tomorrow's Indian Wells editorial. I'm thinking upset @mydesert
+Preprocessed tokens: it 's endorsement season you 'll want to read tomorrow 's indian well editorial i 'm thinking upset mydesert
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #115
+--------------------------------------------------------------------------------
+Tweet: Shit is about to get real tomorrow night at UMBC!
+Preprocessed tokens: shit is about to get real tomorrow night at umbc
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #116
+--------------------------------------------------------------------------------
+Tweet: Not excited to take the SATs tomorrow
+Preprocessed tokens: not excited to take the sat tomorrow
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #117
+--------------------------------------------------------------------------------
+Tweet: Jose Iglesias is in the #PawSox lineup tonight for the first time since sliding into the catcher on Sunday. He missed three games.
+Preprocessed tokens: jose iglesias is in the pawsox lineup tonight for the first time since sliding into the catcher on sunday he missed three game
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #118
+--------------------------------------------------------------------------------
+Tweet: @NupeyKollins douglas wack! They got Shumpert 72. He be dunking on niggas. I dunked in Lebron with Lin last night hahahahhaa on Brentley
+Preprocessed tokens: nupeykollins douglas wack they got shumpert 72. he be dunking on nigga i dunked in lebron with lin last night hahahahhaa on brentley
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #119
+--------------------------------------------------------------------------------
+Tweet: Just remembered I'm taking the PSSAs tomorrow. #Fml
+Preprocessed tokens: just remembered i 'm taking the pssas tomorrow fml
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #120
+--------------------------------------------------------------------------------
+Tweet: @Muccas Sylvia, I can't make Thursday evening I have an event to go to. Can do it Saturday if that's ok? #norestforthewicked
+Preprocessed tokens: muccas sylvia i ca n't make thursday evening i have an event to go to can do it saturday if that 's ok norestforthewicked
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #121
+--------------------------------------------------------------------------------
+Tweet: @HarrietOllerton Cant believe we didnt even take a trip to the beds today, PALEY saturday now me defo boooooo
+Preprocessed tokens: harrietollerton cant believe we didnt even take a trip to the bed today paley saturday now me defo boooooo
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #122
+--------------------------------------------------------------------------------
+Tweet: Gutted I'm missing the cardigan match on Saturday! But more important things to do
+Preprocessed tokens: gutted i 'm missing the cardigan match on saturday but more important thing to do
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #123
+--------------------------------------------------------------------------------
+Tweet: And you say Derrick Rose isn't good because of the ACL but Dwight Howard is the 3rd best player in the league coming off major back surgery?
+Preprocessed tokens: and you say derrick rose is n't good because of the acl but dwight howard is the 3rd best player in the league coming off major back surgery
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #124
+--------------------------------------------------------------------------------
+Tweet: Kapan sih lo ngebuktiin,jan ngomong doang Susah Susah.usaha Aja blm udh nyerah,inget.if you never try you'll never know.cowok kok gentle bgt
+Preprocessed tokens: kapan sih lo ngebuktiin jan ngomong doang susah susah.usaha aja blm udh nyerah inget.if you never try you 'll never know.cowok kok gentle bgt
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #125
+--------------------------------------------------------------------------------
+Tweet: I got that drank I mix that lean ..I throw the money up and then I walk on green ...Kirko Bangz got a hit and I was shitting on him at 1st
+Preprocessed tokens: i got that drank i mix that lean i throw the money up and then i walk on green kirko bangz got a hit and i wa shitting on him at 1st
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #126
+--------------------------------------------------------------------------------
+Tweet: @nickelodeontv May you please show How To Rock from episode 1 and so on.....i cant blieve theres no more how to rock
+Preprocessed tokens: nickelodeontv may you please show how to rock from episode 1 and so on i cant blieve there no more how to rock
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #127
+--------------------------------------------------------------------------------
+Tweet: Someone must not be too happy with the hired help in Sewickley: Sidney Crosby's image removed from #pens mobile app cover on Thursday. #nhl
+Preprocessed tokens: someone must not be too happy with the hired help in sewickley sidney crosby 's image removed from pen mobile app cover on thursday nhl
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #128
+--------------------------------------------------------------------------------
+Tweet: Watching Les Mis 25th Anniversary concert. How long before the boy Jonas gives me rage, knowing Michael Ball was backstage?
+Preprocessed tokens: watching le mi 25th anniversary concert how long before the boy jonas give me rage knowing michael ball wa backstage
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #129
+--------------------------------------------------------------------------------
+Tweet: Beer, xbox, Undertaker: The Streak DVD. Fuck you Saturday night.
+Preprocessed tokens: beer xbox undertaker the streak dvd fuck you saturday night
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #130
+--------------------------------------------------------------------------------
+Tweet: Trey Burke has been suspended for the Northern Michigan game (exhibition) tomorrow. http://t.co/oefkAElW
+Preprocessed tokens: trey burke ha been suspended for the northern michigan game exhibition tomorrow http //t.co/oefkaelw
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #131
+--------------------------------------------------------------------------------
+Tweet: I always thought Michael Dyer & Isiah Crowell would play a big game in Nov for a conference title. Just didn't know it would be the SWAC.
+Preprocessed tokens: i always thought michael dyer isiah crowell would play a big game in nov for a conference title just did n't know it would be the swac
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #132
+--------------------------------------------------------------------------------
+Tweet: @__Aniko you think mr.Calle let practice with you guys ,cause I don't have practice tomorrow ??..
+Preprocessed tokens: __aniko you think mr.calle let practice with you guy cause i do n't have practice tomorrow
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #133
+--------------------------------------------------------------------------------
+Tweet: Jim Rogers is also responsible for laying off 1,900 N.C workers in a state that has the 5th highest unemployment rate in the U.S
+Preprocessed tokens: jim rogers is also responsible for laying off 1,900 n.c worker in a state that ha the 5th highest unemployment rate in the u.s
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #134
+--------------------------------------------------------------------------------
+Tweet: @KeiJhoHyun28 oo nga eh :( may picture sana ako with PREPIX!!!!
+Preprocessed tokens: keijhohyun28 oo nga eh may picture sana ako with prepix
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #135
+--------------------------------------------------------------------------------
+Tweet: York football staff member has leaked that York's goal is to score 100 points against us and leave in 1st string for the whole game #True
+Preprocessed tokens: york football staff member ha leaked that york 's goal is to score 100 point against u and leave in 1st string for the whole game true
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #136
+--------------------------------------------------------------------------------
+Tweet: @__Takiyah hmm if this Friday is the 28 then it's away at Seaholm. Next home is hc :(
+Preprocessed tokens: __takiyah hmm if this friday is the 28 then it 's away at seaholm next home is hc
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #137
+--------------------------------------------------------------------------------
+Tweet: sooo hard night... i must finish translation of  report about Great East Japan Earthquake by tomorrow p.m.12:00!!!
+Preprocessed tokens: sooo hard night i must finish translation of report about great east japan earthquake by tomorrow p.m.12:00
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #138
+--------------------------------------------------------------------------------
+Tweet: Sign of the times? BBC News - Encyclopaedia Britannica ends its famous print edition http://t.co/HSJHdFFa
+Preprocessed tokens: sign of the time bbc news encyclopaedia britannica end it famous print edition http //t.co/hsjhdffa
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #139
+--------------------------------------------------------------------------------
+Tweet: Wish me lucky on the Cahsee tomorrow I'm pretty nervous
+Preprocessed tokens: wish me lucky on the cahsee tomorrow i 'm pretty nervous
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #140
+--------------------------------------------------------------------------------
+Tweet: i'm so tight because i'm taking the HSPA tomorrow and am gonna miss some of my classes.
+Preprocessed tokens: i 'm so tight because i 'm taking the hspa tomorrow and am gon na miss some of my class
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #141
+--------------------------------------------------------------------------------
+Tweet: @MorgaineYou When i saw the tsunami on March 11 on NHK, it put tears in my eyes!!!
+Preprocessed tokens: morgaineyou when i saw the tsunami on march 11 on nhk it put tear in my eye
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #142
+--------------------------------------------------------------------------------
+Tweet: Wrap-up: Broncos 34, Saints 14:  Thoughts on the New Orleans Saints' 34-14 loss to the Denver Broncos on Sunday ... http://t.co/ZVMRPJh3
+Preprocessed tokens: wrap-up bronco 34 saint 14 thought on the new orleans saint 34-14 loss to the denver bronco on sunday http //t.co/zvmrpjh3
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #143
+--------------------------------------------------------------------------------
+Tweet: @ProfOfGoonism September 22 is a Bastard Bearded Irishmen half way to St. Patty's Day party at Mulligan's. I'm going and Erika's going
+Preprocessed tokens: profofgoonism september 22 is a bastard bearded irishman half way to st. patty 's day party at mulligan 's i 'm going and erika 's going
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #144
+--------------------------------------------------------------------------------
+Tweet: Aaaaahhhhh dam! I am out of my favorite Tea! Damit I have to wait until tomorrow to buy it now :(
+Preprocessed tokens: aaaaahhhhh dam i am out of my favorite tea damit i have to wait until tomorrow to buy it now
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #145
+--------------------------------------------------------------------------------
+Tweet: I haven't been able to enjoy tea since Tuesday. I just want to drink a cup without feeling as though I'll hurl.
+Preprocessed tokens: i have n't been able to enjoy tea since tuesday i just want to drink a cup without feeling a though i 'll hurl
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #146
+--------------------------------------------------------------------------------
+Tweet: FCBarcelona captain, Carles Puyol will be out for two months after dislocating his elbow in the match against SLBenfica on tuesday. #fcblive
+Preprocessed tokens: fcbarcelona captain carles puyol will be out for two month after dislocating his elbow in the match against slbenfica on tuesday fcblive
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #147
+--------------------------------------------------------------------------------
+Tweet: I'm about to start barging The Pier every monday, imma just need to stock up on Moebius stickers
+Preprocessed tokens: i 'm about to start barging the pier every monday imma just need to stock up on moebius sticker
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #148
+--------------------------------------------------------------------------------
+Tweet: @Cheetoss_96 Ugly, are you taking the CAHSEE tomorrow?
+Preprocessed tokens: cheetoss_96 ugly are you taking the cahsee tomorrow
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #149
+--------------------------------------------------------------------------------
+Tweet: Was going back up to Dayton in January but ion really think I can handle being up there to live that place ain't no good for me
+Preprocessed tokens: wa going back up to dayton in january but ion really think i can handle being up there to live that place ai n't no good for me
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #150
+--------------------------------------------------------------------------------
+Tweet: (cont.) weeks and Hyung Jun didn't even perform on the major music shows
+Preprocessed tokens: cont week and hyung jun did n't even perform on the major music show
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #151
+--------------------------------------------------------------------------------
+Tweet: Sadly, the Vokle live webcasting site isn't functioning reliably. I'll video tape Wednesday's Runnin' Nekkid... http://t.co/nWSeULRn
+Preprocessed tokens: sadly the vokle live webcasting site is n't functioning reliably i 'll video tape wednesday 's runnin nekkid http //t.co/nwseulrn
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #152
+--------------------------------------------------------------------------------
+Tweet: MSA is having a Poo-Poo kind of day!  :(  If you are experiencing trouble with the site, I apologize.  We may be... http://t.co/tW44ORdb
+Preprocessed tokens: msa is having a poo-poo kind of day if you are experiencing trouble with the site i apologize we may be http //t.co/tw44ordb
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #153
+--------------------------------------------------------------------------------
+Tweet: Gresh and Zo discussed the Celtics season opener loss to the Heat on Tuesday night.  Rajon http://t.co/sbo3Q3Kc
+Preprocessed tokens: gresh and zo discussed the celtic season opener loss to the heat on tuesday night rajon http //t.co/sbo3q3kc
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #154
+--------------------------------------------------------------------------------
+Tweet: @Cliffer_94 I din't take Nutella. Took Galaxy instead, but it's over. No man, NIT is fun. Coming in December :)
+Preprocessed tokens: cliffer_94 i di n't take nutella took galaxy instead but it 's over no man nit is fun coming in december
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #155
+--------------------------------------------------------------------------------
+Tweet: Ahhhh the next few weekends are going to be messy! First off - this saturday: Powder Room at the Gladstone Hotel... http://t.co/C04KQKNr
+Preprocessed tokens: ahhhh the next few weekend are going to be messy first off this saturday powder room at the gladstone hotel http //t.co/c04kqknr
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #156
+--------------------------------------------------------------------------------
+Tweet: @Swish_KK32 and if ur amywhere near kansas state and dont come watch us play in the preseason NIT on nov. 12th im gonna fight u for that too
+Preprocessed tokens: swish_kk32 and if ur amywhere near kansa state and dont come watch u play in the preseason nit on nov. 12th im gon na fight u for that too
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #157
+--------------------------------------------------------------------------------
+Tweet: Prez will claim on Monday that he got Kony as well. #one termer #NotOptimal
+Preprocessed tokens: prez will claim on monday that he got kony a well one termer notoptimal
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #158
+--------------------------------------------------------------------------------
+Tweet: I don't want Saturday to get here. But I'm ready to bomb #allregion in Hot Springs, sooo... Might as well get it over with.
+Preprocessed tokens: i do n't want saturday to get here but i 'm ready to bomb allregion in hot spring sooo might a well get it over with
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #159
+--------------------------------------------------------------------------------
+Tweet: I'm wearing my Kony 2012 shirt for the 1st time. I feel lame lmao :/
+Preprocessed tokens: i 'm wearing my kony 2012 shirt for the 1st time i feel lame lmao
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #160
+--------------------------------------------------------------------------------
+Tweet: Renewed fighting rocks Syria - An early morning explosion rocked the flashpoint city of Deir Ezzor on Saturday in an... http://t.co/dJq9UVQ4
+Preprocessed tokens: renewed fighting rock syria an early morning explosion rocked the flashpoint city of deir ezzor on saturday in an http //t.co/djq9uvq4
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #161
+--------------------------------------------------------------------------------
+Tweet: Reminder - We will NOT be at the Eastern Market event for tomorrow night... Weather not cooperating ! See u Thursday in Farmington Hills !
+Preprocessed tokens: reminder we will not be at the eastern market event for tomorrow night weather not cooperating see u thursday in farmington hill
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #162
+--------------------------------------------------------------------------------
+Tweet: @mariam02 japan fukaoka tix will be released on 24 nov. Im doubtful that we can get the tix coz the VIPs will have priority.
+Preprocessed tokens: mariam02 japan fukaoka tix will be released on 24 nov. im doubtful that we can get the tix coz the vip will have priority
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #163
+--------------------------------------------------------------------------------
+Tweet: I got tickets to the NC State game saturday and nobody to go with..
+Preprocessed tokens: i got ticket to the nc state game saturday and nobody to go with
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #164
+--------------------------------------------------------------------------------
+Tweet: I'm gonna be failing dat HST test tomorrow, Zoe better put her paper where I can see it! #pleaseandthankyou @zoe_estabrook @Tbovea @hrometz
+Preprocessed tokens: i 'm gon na be failing dat hst test tomorrow zoe better put her paper where i can see it pleaseandthankyou zoe_estabrook tbovea hrometz
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #165
+--------------------------------------------------------------------------------
+Tweet: In tears after watching that Dance Academy episode for the 2nd time
+Preprocessed tokens: in tear after watching that dance academy episode for the 2nd time
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+FALSE POSITIVE #166
+--------------------------------------------------------------------------------
+Tweet: Trey Burke suspended for the men's basketball team's exhibition game tomorrow: http://t.co/1h7V8vSC
+Preprocessed tokens: trey burke suspended for the men 's basketball team 's exhibition game tomorrow http //t.co/1h7v8vsc
+True Label: negative
+Predicted Label: positive
+--------------------------------------------------------------------------------
+
+
+================================================================================
+FALSE NEGATIVES (Predicted Negative, Actually Positive): 143
+================================================================================
+These are POSITIVE tweets that the classifier wrongly thought were NEGATIVE.
+Look for patterns: weak positives? negated negatives (not bad)?
+================================================================================
+
+FALSE NEGATIVE #1
+--------------------------------------------------------------------------------
+Tweet: I have heard it said that the 2nd G in Snoop Dogg represents extra gangsterishness, for how else do you explain this particular redundancy?
+Preprocessed tokens: i have heard it said that the 2nd g in snoop dogg represents extra gangsterishness for how else do you explain this particular redundancy
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #2
+--------------------------------------------------------------------------------
+Tweet: Let me be the 1st to say it... you people are about to be all over this Weeknd album. Especially the Dark Times song w/ Ed Sheeran
+Preprocessed tokens: let me be the 1st to say it you people are about to be all over this weeknd album especially the dark time song w/ ed sheeran
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #3
+--------------------------------------------------------------------------------
+Tweet: What I love most about this is that every hag will be on DCUM tomorrow talking a t how trashy Nicki or Bey is. When clearly...#VMAs
+Preprocessed tokens: what i love most about this is that every hag will be on dcum tomorrow talking a t how trashy nicki or bey is when clearly vmas
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #4
+--------------------------------------------------------------------------------
+Tweet: Yesterday was #NationalFastFoodDay and today is TAYLOR DAY!! Coincidence? I don't think so. 🤗🌮🍟🍔🍕 https://t.co/D4J31d5N4i
+Preprocessed tokens: yesterday wa nationalfastfoodday and today is taylor day coincidence i do n't think so http //t.co/d4j31d5n4i
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #5
+--------------------------------------------------------------------------------
+Tweet: I was in like the 4th, 5th, 6th grade burning CDs and mixtapes that faithfully consisted of Dipset, old Bone Thugs, and hella Jay-Z
+Preprocessed tokens: i wa in like the 4th 5th 6th grade burning cd and mixtapes that faithfully consisted of dipset old bone thug and hella jay-z
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #6
+--------------------------------------------------------------------------------
+Tweet: @CassieLeuffen Chuck Norris and 10,000 people march through downtown Birmingham Saturday and @OANN doesn't cover it? Who dropped the ball?
+Preprocessed tokens: cassieleuffen chuck norris and 10,000 people march through downtown birmingham saturday and oann doe n't cover it who dropped the ball
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #7
+--------------------------------------------------------------------------------
+Tweet: Any evil twins you may have won't be able to break Windows 10's facial recognition security. So that's reassuring. http://t.co/6bUshfnfen
+Preprocessed tokens: any evil twin you may have wo n't be able to break window 10 's facial recognition security so that 's reassuring http //t.co/6bushfnfen
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #8
+--------------------------------------------------------------------------------
+Tweet: I will end the embargo against Cuba.
+Preprocessed tokens: i will end the embargo against cuba
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #9
+--------------------------------------------------------------------------------
+Tweet: @Ramzwi @LeutrimRexhaj If you're struggling come January and Benzema don't happen, I'd go for him, he'll give 110% for Arsenal, and score!
+Preprocessed tokens: ramzwi leutrimrexhaj if you 're struggling come january and benzema do n't happen i 'd go for him he 'll give 110 for arsenal and score
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #10
+--------------------------------------------------------------------------------
+Tweet: I'm really bored guys idk if you can tell I'm gonna have a Netflix marathon tomorrow suggest things I could watch
+Preprocessed tokens: i 'm really bored guy idk if you can tell i 'm gon na have a netflix marathon tomorrow suggest thing i could watch
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #11
+--------------------------------------------------------------------------------
+Tweet: A Monday without teen wolf is a Monday with less stress and anxiety
+Preprocessed tokens: a monday without teen wolf is a monday with less stress and anxiety
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #12
+--------------------------------------------------------------------------------
+Tweet: The Gucci hijab bye I'm crying but she looks stunning https://t.co/dMrvvpVRcP
+Preprocessed tokens: the gucci hijab bye i 'm cry but she look stunning http //t.co/dmrvvpvrcp
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #13
+--------------------------------------------------------------------------------
+Tweet: I'm still dying over the fact Fourth of July by Fall Out Boy was in Paper Towns omg
+Preprocessed tokens: i 'm still dying over the fact fourth of july by fall out boy wa in paper town omg
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #14
+--------------------------------------------------------------------------------
+Tweet: Palace in talks with Dortmund player, Bolasie on the move and Zlatan has a warning for potential suitors... http://t.co/aBlAk15ikk
+Preprocessed tokens: palace in talk with dortmund player bolasie on the move and zlatan ha a warning for potential suitor http //t.co/ablak15ikk
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #15
+--------------------------------------------------------------------------------
+Tweet: @EleanorJCalder Hello, Eleanor. Will you please follow my account @beacaresosa for my birthday on the 14th? please, you won't regret it.
+Preprocessed tokens: eleanorjcalder hello eleanor will you please follow my account beacaresosa for my birthday on the 14th please you wo n't regret it
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #16
+--------------------------------------------------------------------------------
+Tweet: @klgandhoda Prayers for all of you today. May God carry each one of you during this sad time "Footprints in the Sand",  RIP Frank Gifford
+Preprocessed tokens: klgandhoda prayer for all of you today may god carry each one of you during this sad time footprint in the sand rip frank gifford
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #17
+--------------------------------------------------------------------------------
+Tweet: I can and will fight for #BlackLivesMatter . However, I am white. I never will be turned down for a job because of my skin tone.4/?
+Preprocessed tokens: i can and will fight for blacklivesmatter however i am white i never will be turned down for a job because of my skin tone.4/
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #18
+--------------------------------------------------------------------------------
+Tweet: Why do people make such a big deal out of being alone on Valentine's day? Look, you may not have a lover but theres chocolate
+Preprocessed tokens: why do people make such a big deal out of being alone on valentine 's day look you may not have a lover but there chocolate
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #19
+--------------------------------------------------------------------------------
+Tweet: E L James' writing caliber is that of a 2nd grader. Throw in some bondage though and you've got a best seller
+Preprocessed tokens: e l james writing caliber is that of a 2nd grader throw in some bondage though and you 've got a best seller
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #20
+--------------------------------------------------------------------------------
+Tweet: @Safeeyar yap. That's why i dont understand why they're making fun with messi's height. Do they expecting him to be a Jan Koller? Lol
+Preprocessed tokens: safeeyar yap that 's why i dont understand why they 're making fun with messi 's height do they expecting him to be a jan koller lol
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #21
+--------------------------------------------------------------------------------
+Tweet: I'm hooked on horse racing..I've been to the Del Mar Racetrack in San Diego..and now I wanna go to the Kentucky Derby..
+Preprocessed tokens: i 'm hooked on horse racing i 've been to the del mar racetrack in san diego and now i wan na go to the kentucky derby
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #22
+--------------------------------------------------------------------------------
+Tweet: Holla to all my bad hombres who decided to work today and get that money $$$ #blackgrinday
+Preprocessed tokens: holla to all my bad hombre who decided to work today and get that money blackgrinday
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #23
+--------------------------------------------------------------------------------
+Tweet: When you're about to not go to school to go see Justin.  https://t.co/yv1iJ293Ay
+Preprocessed tokens: when you 're about to not go to school to go see justin http //t.co/yv1ij293ay
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #24
+--------------------------------------------------------------------------------
+Tweet: I'm trying to decide what I want my son to be 4 Halloween 1.Donald Trump  2.Barack Obama or 3rd Michael Jackson he could pull off all three
+Preprocessed tokens: i 'm trying to decide what i want my son to be 4 halloween 1.donald trump 2.barack obama or 3rd michael jackson he could pull off all three
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #25
+--------------------------------------------------------------------------------
+Tweet: Obama is good for Israel: Tens of millions of Americans will go to the polls on Tuesday to vote for a president ... http://t.co/LZZl0YhG
+Preprocessed tokens: obama is good for israel ten of million of american will go to the poll on tuesday to vote for a president http //t.co/lzzl0yhg
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #26
+--------------------------------------------------------------------------------
+Tweet: Teen wolf was the only thing that made my Monday's greattt  ... What do I do now
+Preprocessed tokens: teen wolf wa the only thing that made my monday 's greattt what do i do now
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #27
+--------------------------------------------------------------------------------
+Tweet: Wow!What an eye opening piece written by Niraj Srivastava.Tony Blair for #Iraq & David Cameron for #Libya 🇱🇾 have l… https://t.co/UfGFdELKrM
+Preprocessed tokens: wow what an eye opening piece written by niraj srivastava.tony blair for iraq david cameron for libya have l… http //t.co/ufgfdelkrm
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #28
+--------------------------------------------------------------------------------
+Tweet: I'm going to Target today solely to look at Star Wars toys. I missed Force Friday due to filming.
+Preprocessed tokens: i 'm going to target today solely to look at star war toy i missed force friday due to filming
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #29
+--------------------------------------------------------------------------------
+Tweet: Bernie Sanders may be extreme, but he honestly seems to despise poverty, racism, discrimination, war, income inequality, &amp; corrupt politics.
+Preprocessed tokens: bernie sander may be extreme but he honestly seems to despise poverty racism discrimination war income inequality amp corrupt politics
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #30
+--------------------------------------------------------------------------------
+Tweet: The Red Sox may be god awful, but beating the Yankees while they are in the thick of things is always nice.
+Preprocessed tokens: the red sox may be god awful but beating the yankee while they are in the thick of thing is always nice
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #31
+--------------------------------------------------------------------------------
+Tweet: #CMAfest Keith Urban with Eric Church ...... OMG. I may die
+Preprocessed tokens: cmafest keith urban with eric church omg i may die
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #32
+--------------------------------------------------------------------------------
+Tweet: Straight outta Compton was so live the fact that they had Ice Cube actually rehearsing his lines for Friday ..
+Preprocessed tokens: straight outta compton wa so live the fact that they had ice cube actually rehearsing his line for friday
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #33
+--------------------------------------------------------------------------------
+Tweet: i dont know if this match is live btwn Anderson&amp;Murray, but Murray take the 3rd set...he's kinda frustrated but still...Go Andy!!! #USOpen
+Preprocessed tokens: i dont know if this match is live btwn anderson amp murray but murray take the 3rd set he 's kinda frustrated but still go andy usopen
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #34
+--------------------------------------------------------------------------------
+Tweet: I may not agree with her stance on Greek Debt Crisis but Angela Merkel's stand &amp; leadership against xenophobia is admirable!
+Preprocessed tokens: i may not agree with her stance on greek debt crisis but angela merkel 's stand amp leadership against xenophobia is admirable
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #35
+--------------------------------------------------------------------------------
+Tweet: I played rugby yesterday may have broken my finger but it was definitely worth the pain the game is more fun than I remember
+Preprocessed tokens: i played rugby yesterday may have broken my finger but it wa definitely worth the pain the game is more fun than i remember
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #36
+--------------------------------------------------------------------------------
+Tweet: Water Pipe? stop Geo engineering =#chemtrail Fracking #Fracking would be a great start. https://t.co/17tW4kWPWW
+Preprocessed tokens: water pipe stop geo engineering chemtrail fracking fracking would be a great start http //t.co/17tw4kwpww
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #37
+--------------------------------------------------------------------------------
+Tweet: @AJWard1993 if anything it'll make it bigger. The IRA said Bloody Sunday was the best recruitment campaign they could hope for.
+Preprocessed tokens: ajward1993 if anything it 'll make it bigger the ira said bloody sunday wa the best recruitment campaign they could hope for
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #38
+--------------------------------------------------------------------------------
+Tweet: last minute but does anyone want to go to Sam Smith w me tomorrow :-)
+Preprocessed tokens: last minute but doe anyone want to go to sam smith w me tomorrow
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #39
+--------------------------------------------------------------------------------
+Tweet: Nikki Haley’s family In India Cheer Her Appointment As UN Envoy #nikkkihaley #unenvoy #unitednations #donaldtrump https://t.co/8R0ZGcfI2C
+Preprocessed tokens: nikki haley s family in india cheer her appointment a un envoy nikkkihaley unenvoy unitednations donaldtrump http //t.co/8r0zgcfi2c
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #40
+--------------------------------------------------------------------------------
+Tweet: @Wildraar @iankatz1000 of course it is but what's changed since May 7th? Lab need votes from Ukip and Tories to win GE. JC won't get those.
+Preprocessed tokens: wildraar iankatz1000 of course it is but what 's changed since may 7th lab need vote from ukip and tory to win ge jc wo n't get those
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #41
+--------------------------------------------------------------------------------
+Tweet: @onekybabydoll: Wisconsin don't forget to VOTE TODAY!! VOTE DEMOCRAT!! Go Wisconsin.#WIunion. Its critical to vote. GOP thinks you wont
+Preprocessed tokens: onekybabydoll wisconsin do n't forget to vote today vote democrat go wisconsin. wiunion it critical to vote gop think you wont
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #42
+--------------------------------------------------------------------------------
+Tweet: .@utahjazz players aim to give Rudy Gobert the experience his French childhood deprived him of: catching passeshttps://t.co/cZcmBwoHUI
+Preprocessed tokens: utahjazz player aim to give rudy gobert the experience his french childhood deprived him of catching passeshttps //t.co/czcmbwohui
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #43
+--------------------------------------------------------------------------------
+Tweet: Love or hate Tsipras, he's told nothing but the truth since day 1. Wouldn't see honesty like that with other leaders https://t.co/tcHI7WgwAo
+Preprocessed tokens: love or hate tsipras he 's told nothing but the truth since day 1. would n't see honesty like that with other leader http //t.co/tchi7wgwao
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #44
+--------------------------------------------------------------------------------
+Tweet: @vonny_bravo yes, but wouldn't  gun control work better?
+Preprocessed tokens: vonny_bravo yes but would n't gun control work better
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #45
+--------------------------------------------------------------------------------
+Tweet: Zlatan is simply saving himself for the 2nd leg
+Preprocessed tokens: zlatan is simply saving himself for the 2nd leg
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #46
+--------------------------------------------------------------------------------
+Tweet: Paul says even though they may not have votes to defund Planned Parenthood, 'I'm going to make them vote.'
+Preprocessed tokens: paul say even though they may not have vote to defund planned parenthood i 'm going to make them vote
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #47
+--------------------------------------------------------------------------------
+Tweet: This is all time greatest and why we all luv and hate Kanye west but he is a human that keeps the world alive #YE  https://t.co/BHoWFpGTjs
+Preprocessed tokens: this is all time greatest and why we all luv and hate kanye west but he is a human that keep the world alive ye http //t.co/bhowfpgtjs
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #48
+--------------------------------------------------------------------------------
+Tweet: Why would you still wear shorts when it's this cold?!  I love how Britain see's a bit of sun and they're like 'OOOH LET'S STRIP!'
+Preprocessed tokens: why would you still wear short when it 's this cold i love how britain see 's a bit of sun and they 're like 'oooh let 's strip
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #49
+--------------------------------------------------------------------------------
+Tweet: \"" Guys who have crushes, have little a little penis! \"" Lmfao the random shit Ambrose says in 6th prd !
+Preprocessed tokens: guy who have crush have little a little penis lmfao the random shit ambrose say in 6th prd
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #50
+--------------------------------------------------------------------------------
+Tweet: \"Why America May Go To Hell\"- wish it wouldve been completed and i wish i could read the contents of it...  by MLK
+Preprocessed tokens: why america may go to hell\ wish it wouldve been completed and i wish i could read the content of it by mlk
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #51
+--------------------------------------------------------------------------------
+Tweet: Monday mornings with Cate Blanchett sure don't suck. @ JW Marriott Essex House New York https://t.co/Bkge3Upk8u
+Preprocessed tokens: monday morning with cate blanchett sure do n't suck jw marriott essex house new york http //t.co/bkge3upk8u
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #52
+--------------------------------------------------------------------------------
+Tweet: I seen Chris brown , August ,fetty ,k camp,' migos, kid ink, Monica, lil Kim, Omarion, young thug, and teyona Taylor tonight
+Preprocessed tokens: i seen chris brown august fetty k camp migos kid ink monica lil kim omarion young thug and teyona taylor tonight
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #53
+--------------------------------------------------------------------------------
+Tweet: Zayn and Justin are both working in the studio. What if they're planning a secret collab? The world may never know! Stay tuned . . .
+Preprocessed tokens: zayn and justin are both working in the studio what if they 're planning a secret collab the world may never know stay tuned
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #54
+--------------------------------------------------------------------------------
+Tweet: Fall Lent Season for me. Doing a 40 day fast off of Facebook so I can get closer to God and away from all the havoc. Be back on December 8th
+Preprocessed tokens: fall lent season for me doing a 40 day fast off of facebook so i can get closer to god and away from all the havoc be back on december 8th
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #55
+--------------------------------------------------------------------------------
+Tweet: My baby girl has changed so much! It seems like yesterday, she was 8 years old. :(•{#twd #twdg #TheWalkingDead… https://t.co/zvdMh1oj6N
+Preprocessed tokens: my baby girl ha changed so much it seems like yesterday she wa 8 year old twd twdg thewalkingdead… http //t.co/zvdmh1oj6n
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #56
+--------------------------------------------------------------------------------
+Tweet: Donald Trump says he has nothing but nice things to say about Kanye West, but adds he may "have to run against him in a few years."
+Preprocessed tokens: donald trump say he ha nothing but nice thing to say about kanye west but add he may have to run against him in a few year
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #57
+--------------------------------------------------------------------------------
+Tweet: @Comms153 Great use of the video of Melania Trump plagiarising Michelle Obama's speech, a very funny and relevant example!
+Preprocessed tokens: comms153 great use of the video of melania trump plagiarising michelle obama 's speech a very funny and relevant example
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #58
+--------------------------------------------------------------------------------
+Tweet: Lexus may not know anything about skateboarding but science does all the talking. Back to the future was no joke!
+Preprocessed tokens: lexus may not know anything about skateboarding but science doe all the talking back to the future wa no joke
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #59
+--------------------------------------------------------------------------------
+Tweet: Tell it, Sistah! #ElizabethWarren #TrumpTransitionTeam #DrainTheSwamp https://t.co/NxPafi66iW
+Preprocessed tokens: tell it sistah elizabethwarren trumptransitionteam draintheswamp http //t.co/nxpafi66iw
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #60
+--------------------------------------------------------------------------------
+Tweet: Aye now Meek may surprise us. You know when Jay-Z dropped Takeover they thought it was over for Nas. And then Ether......
+Preprocessed tokens: aye now meek may surprise u you know when jay-z dropped takeover they thought it wa over for na and then ether
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #61
+--------------------------------------------------------------------------------
+Tweet: we need a  Fidel Castro in Kenya  to gear up a revolution against a corrupt regime and have better health reforms #DoctorsStrike .
+Preprocessed tokens: we need a fidel castro in kenya to gear up a revolution against a corrupt regime and have better health reform doctorsstrike
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #62
+--------------------------------------------------------------------------------
+Tweet: Took the day off work and treated babe to some Big Biscuit and saw Ant-Man. Some Monday's aren't too bad.
+Preprocessed tokens: took the day off work and treated babe to some big biscuit and saw ant-man some monday 's are n't too bad
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #63
+--------------------------------------------------------------------------------
+Tweet: @Serious_Sound yeah that's wha I'm doing tomorrow. Your topic seems interesting as fuck. Lol my shit is on Malcolm X. But ima just
+Preprocessed tokens: serious_sound yeah that 's wha i 'm doing tomorrow your topic seems interesting a fuck lol my shit is on malcolm x. but ima just
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #64
+--------------------------------------------------------------------------------
+Tweet: Sony and Zeiss showdown! Announcement on Friday 11 is not just about camcorder and Otus!
+Preprocessed tokens: sony and zeiss showdown announcement on friday 11 is not just about camcorder and otus
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #65
+--------------------------------------------------------------------------------
+Tweet: I tried HTC vive VR headset and google earth VR, then painted using Tilt Brush. Holy Cow! I didn't want to get out of that world!
+Preprocessed tokens: i tried htc vive vr headset and google earth vr then painted using tilt brush holy cow i did n't want to get out of that world
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #66
+--------------------------------------------------------------------------------
+Tweet: Found my Bernie soulmate 🙆🏻🐦 #NODAPL @ Dakota Access Pipeline Resistance Camp https://t.co/oOheD6wycx
+Preprocessed tokens: found my bernie soulmate nodapl dakota access pipeline resistance camp http //t.co/oohed6wycx
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #67
+--------------------------------------------------------------------------------
+Tweet: @DatNigga_Tj nigga Saturday were going to a Farmington hills party!!!
+Preprocessed tokens: datnigga_tj nigga saturday were going to a farmington hill party
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #68
+--------------------------------------------------------------------------------
+Tweet: @SallySquirrel95 LOL! Schedule for today the 3rd of August: Visit Kim Hyung Jun's Birthday Party (G.O). Don't think so! xDDD
+Preprocessed tokens: sallysquirrel95 lol schedule for today the 3rd of august visit kim hyung jun 's birthday party g.o do n't think so xddd
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #69
+--------------------------------------------------------------------------------
+Tweet: @KatVonTease420  Hmm I usually don't watch B/G shows but I may have to make an exception for something like that ;)
+Preprocessed tokens: katvontease420 hmm i usually do n't watch b/g show but i may have to make an exception for something like that
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #70
+--------------------------------------------------------------------------------
+Tweet: As Eden Hazard assisted the 1st goal of this game, we are refunding all first goalscorer stakes on this player.
+Preprocessed tokens: a eden hazard assisted the 1st goal of this game we are refunding all first goalscorer stake on this player
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #71
+--------------------------------------------------------------------------------
+Tweet: @TomFoolery52 yes. I am the Remus Lupin of werebears. Just watch out at the next full moon. I may once again attempt to steal your honey...
+Preprocessed tokens: tomfoolery52 yes i am the remus lupin of werebears just watch out at the next full moon i may once again attempt to steal your honey
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #72
+--------------------------------------------------------------------------------
+Tweet: Holi....cuantas on? Para volvernos crazy,crazy,crazy till we see the sun xx
+Preprocessed tokens: holi cuantas on para volvernos crazy crazy crazy till we see the sun xx
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #73
+--------------------------------------------------------------------------------
+Tweet: Shaker is going to have school tomorrow. There's no doubt about that... The really question is, am I gonna go??
+Preprocessed tokens: shaker is going to have school tomorrow there 's no doubt about that the really question is am i gon na go
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #74
+--------------------------------------------------------------------------------
+Tweet: @WeAreFarmers Saw the @KaseyKahne #Firesuit commercial during the break, couldn't stop laughing. Saw it 1st at the Farmers display at LVMS.
+Preprocessed tokens: wearefarmers saw the kaseykahne firesuit commercial during the break could n't stop laughing saw it 1st at the farmer display at lvms
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #75
+--------------------------------------------------------------------------------
+Tweet: Vincent Jackson injury update: Active on Thursday against the Vikings, fantasy owners can rest easy: Tampa Bay B... http://t.co/7POEwMOP
+Preprocessed tokens: vincent jackson injury update active on thursday against the viking fantasy owner can rest easy tampa bay b http //t.co/7poewmop
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #76
+--------------------------------------------------------------------------------
+Tweet: Don't hide under your desk! It's just a salsa bomb that we'll be dropping on the Metroplex tomorrow. Fresh salsa delivery imminent! #yum
+Preprocessed tokens: do n't hide under your desk it 's just a salsa bomb that we 'll be dropping on the metroplex tomorrow fresh salsa delivery imminent yum
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #77
+--------------------------------------------------------------------------------
+Tweet: Attention Romo haters. Guess who is the 4th highest career qb rating all time? That's right..higher than Manning, Brees, Warner, Montana etc
+Preprocessed tokens: attention romo hater guess who is the 4th highest career qb rating all time that 's right higher than manning brees warner montana etc
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #78
+--------------------------------------------------------------------------------
+Tweet: If the Lakers still had Jordan Farmar,Trevor Ariza,&Shannon Brown I'd be watching them ..I dont like the Lakers but they were entertaining.
+Preprocessed tokens: if the lakers still had jordan farmar trevor ariza shannon brown i 'd be watching them i dont like the lakers but they were entertaining
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #79
+--------------------------------------------------------------------------------
+Tweet: I just hope Ian Bennett is first out of the selection machine tonight #terrierball #htafc #dontfancyArfieldingoal
+Preprocessed tokens: i just hope ian bennett is first out of the selection machine tonight terrierball htafc dontfancyarfieldingoal
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #80
+--------------------------------------------------------------------------------
+Tweet: S/O to @Hannahroehrigg ! I don't really know her but she seems real chill. She may not know how to spell Peyton Siva, but still follow her!
+Preprocessed tokens: s/o to hannahroehrigg i do n't really know her but she seems real chill she may not know how to spell peyton siva but still follow her
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #81
+--------------------------------------------------------------------------------
+Tweet: Wish I was with the full Eastern Crew on a Saturday especially St Pattys damn would of been priceless ya feel me #enoughsaid #realtalk
+Preprocessed tokens: wish i wa with the full eastern crew on a saturday especially st patty damn would of been priceless ya feel me enoughsaid realtalk
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #82
+--------------------------------------------------------------------------------
+Tweet: @charlieismemate Sweden eh? How'd that come about? Not yet, SXSW will b n March. When is ur behind coming 2 the U.S.? ;) How's the little 1?
+Preprocessed tokens: charlieismemate sweden eh how 'd that come about not yet sxsw will b n march when is ur behind coming 2 the u.s. how 's the little 1
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #83
+--------------------------------------------------------------------------------
+Tweet: @IBGDRGN @Realtaeyang 1st time GD oppa praised VIPs in public,1st time other countries VIP jealous with M'sia VIP..and many many more...
+Preprocessed tokens: ibgdrgn realtaeyang 1st time gd oppa praised vip in public,1st time other country vip jealous with m'sia vip and many many more
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #84
+--------------------------------------------------------------------------------
+Tweet: My mommy just said she'd give me $1,000 to go to Peru in March!!!! Whoo whoo whoo!
+Preprocessed tokens: my mommy just said she 'd give me 1,000 to go to peru in march whoo whoo whoo
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #85
+--------------------------------------------------------------------------------
+Tweet: Just found out my bro @RMueksch is going to be on ESPN2 Sat night for the Neb game!! Sad I can't see it, so you should watch it:) #bigdebute
+Preprocessed tokens: just found out my bro rmueksch is going to be on espn2 sat night for the neb game sad i ca n't see it so you should watch it bigdebute
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #86
+--------------------------------------------------------------------------------
+Tweet: Taison scores for Metalist in Kyiv, and it's the 2nd goal I've seen today that arrives for having the defensive line in the opposition half.
+Preprocessed tokens: taison score for metalist in kyiv and it 's the 2nd goal i 've seen today that arrives for having the defensive line in the opposition half
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #87
+--------------------------------------------------------------------------------
+Tweet: @vi079 Backed the other Ruby. Error. Each way lucky 31 depends on Scotsirish, surely Quevega won't let me down? May have a punt on the last.
+Preprocessed tokens: vi079 backed the other ruby error each way lucky 31 depends on scotsirish surely quevega wo n't let me down may have a punt on the last
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #88
+--------------------------------------------------------------------------------
+Tweet: @dianaanoann The days are getting shorter for sure, but we'll go into daylight savings this Sunday, i.e., no waking up in the dark! :-)
+Preprocessed tokens: dianaanoann the day are getting shorter for sure but we 'll go into daylight saving this sunday i.e. no waking up in the dark
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #89
+--------------------------------------------------------------------------------
+Tweet: Come and join us @'Free to Be' Women's Day @HTBChurch with @mercyministries on Nov 3rd - Dealing with anxieties, addictions, abuse, hurts...
+Preprocessed tokens: come and join u 'free to be woman 's day htbchurch with mercyministries on nov 3rd dealing with anxiety addiction abuse hurt
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #90
+--------------------------------------------------------------------------------
+Tweet: As if @richardm56 is at centre point, may have to nip round the corner and stalk his fine ass #guiltypleasure
+Preprocessed tokens: a if richardm56 is at centre point may have to nip round the corner and stalk his fine as guiltypleasure
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #91
+--------------------------------------------------------------------------------
+Tweet: Just back from pre-season. Legs are knackered. Now going to watch the  2nd leg of the Europa League Liverpool v FC Gomel.........!!!x
+Preprocessed tokens: just back from pre-season leg are knackered now going to watch the 2nd leg of the europa league liverpool v fc gomel x
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #92
+--------------------------------------------------------------------------------
+Tweet: ...woah, Deezer. Babel only came out on Monday, can you leave it up for longer than a day to give slow people like me a chance?
+Preprocessed tokens: woah deezer babel only came out on monday can you leave it up for longer than a day to give slow people like me a chance
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #93
+--------------------------------------------------------------------------------
+Tweet: Day 3 of PSSAs (state tests for 11th grade). Test questions and sci scenarios vary greatly; shouldn't they be taking the same exam? #pssa
+Preprocessed tokens: day 3 of pssas state test for 11th grade test question and sci scenario vary greatly should n't they be taking the same exam pssa
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #94
+--------------------------------------------------------------------------------
+Tweet: @GotMalkin tickets are cheap at least. And c'mon, you don't get that many chances to see and possibly meet Mario Lemieux
+Preprocessed tokens: gotmalkin ticket are cheap at least and c'mon you do n't get that many chance to see and possibly meet mario lemieux
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #95
+--------------------------------------------------------------------------------
+Tweet: If we could just send TAKS scores instead of SAT/ACT my life would be a billion-trillion times easier.
+Preprocessed tokens: if we could just send taks score instead of sat/act my life would be a billion-trillion time easier
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #96
+--------------------------------------------------------------------------------
+Tweet: @mg_indy Reggie Wayne got rocked at the goalline Sunday & the other team tried to help him up & he wouldn't let them. Thats what I wanna see
+Preprocessed tokens: mg_indy reggie wayne got rocked at the goalline sunday the other team tried to help him up he would n't let them thats what i wan na see
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #97
+--------------------------------------------------------------------------------
+Tweet: The new iMac is so freaking thin. I may choose it over a Thunderbolt display. Unless they update it to!
+Preprocessed tokens: the new imac is so freaking thin i may choose it over a thunderbolt display unless they update it to
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #98
+--------------------------------------------------------------------------------
+Tweet: So far, I'm only going to attend Smash Project because Miss May I, Of Mice & Men and Chunk No Captain Chunk.
+Preprocessed tokens: so far i 'm only going to attend smash project because miss may i of mouse men and chunk no captain chunk
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #99
+--------------------------------------------------------------------------------
+Tweet: @samuel_k93 went to watch em against fc Gomel and sat in the KOP and the atmosphere is insane! And Wen they sang NWA I had goose bumps lol
+Preprocessed tokens: samuel_k93 went to watch em against fc gomel and sat in the kop and the atmosphere is insane and wen they sang nwa i had goose bump lol
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #100
+--------------------------------------------------------------------------------
+Tweet: @LindseyKMiller CHANGED HER MIND? She bailed on st Pattys, & now she def needs to come! Im thinking about leaving after work on that Friday?
+Preprocessed tokens: lindseykmiller changed her mind she bailed on st patty now she def need to come im thinking about leaving after work on that friday
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #101
+--------------------------------------------------------------------------------
+Tweet: Even tho. Lakers are 0-2 i still believe they`ll be in that court on June against the Celtics, or Heat #idcwhatthehatershavetosay
+Preprocessed tokens: even tho lakers are 0-2 i still believe they ll be in that court on june against the celtic or heat idcwhatthehatershavetosay
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #102
+--------------------------------------------------------------------------------
+Tweet: Why Mulayam Singh Yadav's Samajwadi Party may not dump the Congress after all
+Preprocessed tokens: why mulayam singh yadav 's samajwadi party may not dump the congress after all
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #103
+--------------------------------------------------------------------------------
+Tweet: @DannycatedLover @AmyAnneTurner @annahades @gealingeman I think that the 2nd place on Melodifestivalen gives the points on Eurovision! ;)
+Preprocessed tokens: dannycatedlover amyanneturner annahades gealingeman i think that the 2nd place on melodifestivalen give the point on eurovision
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #104
+--------------------------------------------------------------------------------
+Tweet: I'm just waiting until Thursday. I won't be at school. I'll be at the Smith Center the entire day. FUCK YEAHHHH
+Preprocessed tokens: i 'm just waiting until thursday i wo n't be at school i 'll be at the smith center the entire day fuck yeahhhh
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #105
+--------------------------------------------------------------------------------
+Tweet: @CraigSpratt Yeh it's a joke. May as well make Crufts an Olympic event too if this counts as one...
+Preprocessed tokens: craigspratt yeh it 's a joke may a well make crufts an olympic event too if this count a one
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #106
+--------------------------------------------------------------------------------
+Tweet: Idk bout your Saturday but damn mine was the shit...and I didn't even got to Jouvert
+Preprocessed tokens: idk bout your saturday but damn mine wa the shit and i did n't even got to jouvert
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #107
+--------------------------------------------------------------------------------
+Tweet: Now here is where conservative Arabs and conservative Jews may come to terms.  Abortion.  The Gaza strip may solve it all by itself.
+Preprocessed tokens: now here is where conservative arab and conservative jew may come to term abortion the gaza strip may solve it all by itself
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #108
+--------------------------------------------------------------------------------
+Tweet: It ends in a draw. NU gives itself a chance for a share of the Big Ten title should Michigan State lose on Saturday #B1GCats
+Preprocessed tokens: it end in a draw nu give itself a chance for a share of the big ten title should michigan state lose on saturday b1gcats
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #109
+--------------------------------------------------------------------------------
+Tweet: @NoelleChara21 I know!! I sat down I'm just like OHMYGOSH that's Peyton Siva
+Preprocessed tokens: noellechara21 i know i sat down i 'm just like ohmygosh that 's peyton siva
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #110
+--------------------------------------------------------------------------------
+Tweet: @kelseyrprice Yea but since it's such a short notice, B/G is the simplest thing to do. Haha but Decades Tuesday don't sound too bad.
+Preprocessed tokens: kelseyrprice yea but since it 's such a short notice b/g is the simplest thing to do haha but decade tuesday do n't sound too bad
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #111
+--------------------------------------------------------------------------------
+Tweet: ONE FC 6: Rise of Kings is scheduled to blow the roof off of the Singapore Indoor Stadium on Saturday, October 6.
+Preprocessed tokens: one fc 6 rise of king is scheduled to blow the roof off of the singapore indoor stadium on saturday october 6
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #112
+--------------------------------------------------------------------------------
+Tweet: Hopefully going to genera with physics, down side is its only 6th years who are going and I don't talk to many #worthitbut
+Preprocessed tokens: hopefully going to genus with physic down side is it only 6th year who are going and i do n't talk to many worthitbut
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #113
+--------------------------------------------------------------------------------
+Tweet: Why are all the great tv shows on a Monday night? channel surfing between Fashion Star and the Voice US and the Olympics...too much choice
+Preprocessed tokens: why are all the great tv show on a monday night channel surfing between fashion star and the voice u and the olympics too much choice
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #114
+--------------------------------------------------------------------------------
+Tweet: Just because the sun isn't out doesn't mean you can't get your tan on ! Come by Hollywood Tans and check out the specials !!!!
+Preprocessed tokens: just because the sun is n't out doe n't mean you ca n't get your tan on come by hollywood tan and check out the special
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #115
+--------------------------------------------------------------------------------
+Tweet: James Meredith on this 30 for 30... The 1st black student at Ole Miss... Well... Thats the definition of a real nigga w/ balls.
+Preprocessed tokens: james meredith on this 30 for 30 the 1st black student at ole miss well thats the definition of a real nigga w/ ball
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #116
+--------------------------------------------------------------------------------
+Tweet: Ok, can anyone answer if when 1D will come to the Philippines? Cause my cousin told me this dec. 21 and shes not sure. Please answer me..
+Preprocessed tokens: ok can anyone answer if when 1d will come to the philippine cause my cousin told me this dec. 21 and shes not sure please answer me
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #117
+--------------------------------------------------------------------------------
+Tweet: Spotted!  Dennis Kucinich and wife on 17th and R...as it often is his hand is resting on her, how shall I say it, derrier
+Preprocessed tokens: spotted dennis kucinich and wife on 17th and r a it often is his hand is resting on her how shall i say it derrier
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #118
+--------------------------------------------------------------------------------
+Tweet: @annargh Unfortunately, not yet. Wanted to go to Revenge at Paleyfest in March, but couldn't make it. Hopefully soon. So happy for you! :)
+Preprocessed tokens: annargh unfortunately not yet wanted to go to revenge at paleyfest in march but could n't make it hopefully soon so happy for you
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #119
+--------------------------------------------------------------------------------
+Tweet: St. Patrick's gaa are doing a fundraising clothes collection day on Nov 13th if you want to get rid of any old clothes give me a call.
+Preprocessed tokens: st. patrick 's gaa are doing a fundraising clothes collection day on nov 13th if you want to get rid of any old clothes give me a call
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #120
+--------------------------------------------------------------------------------
+Tweet: Sitting here with @LaydeeMarz nancy , Kini , nene lai and mar and Levi ! CRACKING UP SO LOUD ! We got told off
+Preprocessed tokens: sitting here with laydeemarz nancy kini nene lai and mar and levi cracking up so loud we got told off
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #121
+--------------------------------------------------------------------------------
+Tweet: Wednesday's NFL notebook: Broncos' Peyton Manning says his injured thumb is OK: The tape didn't wrap all the way... http://t.co/AnIZjsvG
+Preprocessed tokens: wednesday 's nfl notebook bronco peyton manning say his injured thumb is ok the tape did n't wrap all the way http //t.co/anizjsvg
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #122
+--------------------------------------------------------------------------------
+Tweet: Expecting to see KONY stickers all over the school again tomorrow, they're back and i have to go to the assembly with my global class
+Preprocessed tokens: expecting to see kony sticker all over the school again tomorrow they 're back and i have to go to the assembly with my global class
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #123
+--------------------------------------------------------------------------------
+Tweet: A rumor popped out about an @Eminem concert in Kyiv this February. I wonder how true that is. I'm so going if it's true, though.
+Preprocessed tokens: a rumor popped out about an eminem concert in kyiv this february i wonder how true that is i 'm so going if it 's true though
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #124
+--------------------------------------------------------------------------------
+Tweet: So, @ChuckRagan in Helsinki tonight with the #RevivalTour, and he has a birthday! Sounds like a killer combination. Too bad its Tuesday.
+Preprocessed tokens: so chuckragan in helsinki tonight with the revivaltour and he ha a birthday sound like a killer combination too bad it tuesday
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #125
+--------------------------------------------------------------------------------
+Tweet: Lovatics loves Demi. some Lovatics bullying other fans because they spelt a word wrong, it's not their 1st language? Bullying? Wow. Just wow
+Preprocessed tokens: lovatics love demi some lovatics bullying other fan because they spelt a word wrong it 's not their 1st language bullying wow just wow
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #126
+--------------------------------------------------------------------------------
+Tweet: @WNSource more interested in a possible Cena vs Ziggler match! more annoyed Ziggler didnt even wrestle tonight or on Smackdown Friday
+Preprocessed tokens: wnsource more interested in a possible cena v ziggler match more annoyed ziggler didnt even wrestle tonight or on smackdown friday
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #127
+--------------------------------------------------------------------------------
+Tweet: Having complimented Peter Garrett yesterday for his suit, I fear he's worn the same one today. Hope it's the 2nd pair of pants. #qt
+Preprocessed tokens: having complimented peter garrett yesterday for his suit i fear he 's worn the same one today hope it 's the 2nd pair of pant qt
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #128
+--------------------------------------------------------------------------------
+Tweet: @__wilo___ I want her so bad...... ohhh, in Melodifestivalen you mean? Yes yes, but that will never happen. Netherlands was 15th :')
+Preprocessed tokens: __wilo___ i want her so bad ohhh in melodifestivalen you mean yes yes but that will never happen netherlands wa 15th
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #129
+--------------------------------------------------------------------------------
+Tweet: Someone runs the wrong route on 3rd and 8, but Andy Lee saves it with a MONSTER punt. Special teams to the rescue?
+Preprocessed tokens: someone run the wrong route on 3rd and 8 but andy lee save it with a monster punt special team to the rescue
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #130
+--------------------------------------------------------------------------------
+Tweet: If you missed @ShawnMichaels MRA on Tues it's back on 50 mins Pay attention cause there's a chance to hang out with HBK http://t.co/2vbH4PZN
+Preprocessed tokens: if you missed shawnmichaels mra on tues it 's back on 50 min pay attention cause there 's a chance to hang out with hbk http //t.co/2vbh4pzn
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #131
+--------------------------------------------------------------------------------
+Tweet: @killa_1983 - If you ain't doing nothing Saturday: slide through Aja, they got me hosting it.
+Preprocessed tokens: killa_1983 if you ai n't doing nothing saturday slide through aja they got me hosting it
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #132
+--------------------------------------------------------------------------------
+Tweet: @fatimasule That was the revelation I mentioned on sunday evening. I am still in Abj. How are u & where have u been again?
+Preprocessed tokens: fatimasule that wa the revelation i mentioned on sunday evening i am still in abj how are u where have u been again
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #133
+--------------------------------------------------------------------------------
+Tweet: @Diarmuidm77lfc4 Ya our game in hand is v Bolton!!!!!. 6 pointer ha!..Playing Norwich last game of the season!.#hopeless
+Preprocessed tokens: diarmuidm77lfc4 ya our game in hand is v bolton 6 pointer ha playing norwich last game of the season hopeless
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #134
+--------------------------------------------------------------------------------
+Tweet: As my mom said, I shouldn't be bitter because THSK will always hold the honor and prestige of being the 1st Korean group to perform in TDome
+Preprocessed tokens: a my mom said i should n't be bitter because thsk will always hold the honor and prestige of being the 1st korean group to perform in tdome
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #135
+--------------------------------------------------------------------------------
+Tweet: @JETHROnaldo7 the reason why I'm telling you HMV is kasi may special editions yan and shit :>
+Preprocessed tokens: jethronaldo7 the reason why i 'm telling you hmv is kasi may special edition yan and shit
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #136
+--------------------------------------------------------------------------------
+Tweet: If you're not coming to the SVSU vs. Wayne State game tomorrow, watch it on CBS College Sports or FSN Detroit. It's about to be hype!
+Preprocessed tokens: if you 're not coming to the svsu vs. wayne state game tomorrow watch it on cbs college sport or fsn detroit it 's about to be hype
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #137
+--------------------------------------------------------------------------------
+Tweet: I'm officially done with all of my exit level TAKS. Lets just hope I don't have to retake any in March. #2013
+Preprocessed tokens: i 'm officially done with all of my exit level taks let just hope i do n't have to retake any in march 2013
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #138
+--------------------------------------------------------------------------------
+Tweet: National Women's Day in #SouthAfrica this Thursday, 9 August. Promote  gender equality and an end to abuse of women in Africa + the world
+Preprocessed tokens: national woman 's day in southafrica this thursday 9 august promote gender equality and an end to abuse of woman in africa the world
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #139
+--------------------------------------------------------------------------------
+Tweet: #np Going Wrong - Armin Van Buuren ...and I will live 2day n I will love tomorrow. No matter what is said or done. Even if its going wrong.
+Preprocessed tokens: np going wrong armin van buuren and i will live 2day n i will love tomorrow no matter what is said or done even if it going wrong
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #140
+--------------------------------------------------------------------------------
+Tweet: HELP STOP KONY hes not dead! Washington, D.C. on November 17 please go and help get the president to get Kony go to there website! #kony!
+Preprocessed tokens: help stop kony he not dead washington d.c. on november 17 please go and help get the president to get kony go to there website kony
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #141
+--------------------------------------------------------------------------------
+Tweet: Happy Tuesday. Your batting average is no worse than that of Jose Iglesias. Hopefully that gets you through the day.
+Preprocessed tokens: happy tuesday your batting average is no worse than that of jose iglesias hopefully that get you through the day
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #142
+--------------------------------------------------------------------------------
+Tweet: Daylight Savings Time ends this Sunday. Except Arizona, where we gain the hour because we don't have to change any the clocks. #smallvictory
+Preprocessed tokens: daylight saving time end this sunday except arizona where we gain the hour because we do n't have to change any the clock smallvictory
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
+FALSE NEGATIVE #143
+--------------------------------------------------------------------------------
+Tweet: One other possibility: Hawaii. Chow may be done with BYU and Hawaii may have better options from teams on probation for their Dec 7 game.
+Preprocessed tokens: one other possibility hawaii chow may be done with byu and hawaii may have better option from team on probation for their dec 7 game
+True Label: positive
+Predicted Label: negative
+--------------------------------------------------------------------------------
+
